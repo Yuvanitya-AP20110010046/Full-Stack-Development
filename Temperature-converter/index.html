@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <form >
+        <label for="Temperature">Temperature</label>
+        <input type="text" id="Temperature" placeholder="Temperature" class="top">
+        <br><br>
+        <label for="type-in">From</label>
+        <select id="type-in" >
+            <option value="celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>   
+        <br><br>
+        
+        <label for="type1">To</label>
+        <select id="type1" >
+            <option value="celsius1">Celsius</option>
+            <option value="Fahrenheit1">Fahrenheit</option>
+            <option value="Kelvin1">Kelvin</option>
+        </select>
+        <br><br>
+        <br>
+        <!-- <button id="submit">Convert</button> -->
+        <button class="btn btn-lg btn-primary btn-block" id="submit">Convert</button>
+    </form>
+        <!-- <p id="p1"></p> -->
+    </div>
+    <br>
+    <!-- <p id="p1">45.6 celsius is equivalent to 114.08 Fahrenheit</p> -->
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
