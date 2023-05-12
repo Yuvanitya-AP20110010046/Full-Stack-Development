@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    /* background-color: black; */
+}
+#box{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#find{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    background-color: white; 
+    border: 2px solid lightblue;     
+    padding: 10px;
+    cursor: pointer;
+}
+.input{
+    
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
