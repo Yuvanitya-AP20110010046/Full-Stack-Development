@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtVista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+
+    <div class="container">
+        <h1>ArtVista Gallery</h1>
+        <div class="top-content">
+            <h3>Photo Gallery</h3>
+            <label for="check1">All Photos</label>
+            <label for="check2">Abstract</label>
+            <label for="check3">Paintings</label>
+            <label for="check4">Photography</label>
+        </div>
+        <div class="photo-gallery">
+            <a href="images/abstract1.jpeg" class="pic abstract">
+                <img src="images/abstract1.jpeg" alt="picture1">
+            </a>
+            <a href="images/painting1.jpg" class="pic painting">
+                <img src="images/painting1.jpg"  alt="picture2">
+            </a>
+            <a href="images/abstract2.jpeg" class="pic abstract">
+                <img src="images/abstract2.jpeg" alt="picture3">
+            </a>
+            <a href="images/photography1.jpg" class="pic photography">
+                <img src="images/photography1.jpg" alt="picture4">
+            </a>
+            <a href="images/abstract3.jpg" class="pic abstract">
+                <img src="images/abstract3.jpg" alt="picture5">
+            </a>
+            <a href="images/painting2.jpeg" class="pic painting">
+                <img src="images/painting2.jpeg" alt="picture6">
+            </a>
+            <a href="images/painting4.jpeg" class="pic painting">
+                <img src="images/painting4.jpeg"  alt="picture2">
+            </a>
+            <a href="images/painting5.jpeg" class="pic painting">
+                <img src="images/painting5.jpeg"  alt="picture2">
+            </a>
+            <a href="images/photography2.jpg" class="pic photography">
+                <img src="images/photography2.jpg" alt="picture7">
+            </a>
+            <a href="images/photography3.jpg" class="pic photography">
+                <img src="images/photography3.jpg" alt="picture8">
+            </a>
+            <a href="images/painting6.jpeg" class="pic painting">
+                <img src="images/painting6.jpeg"  alt="picture2">
+            </a>
+            <a href="images/abstract6.jpg" class="pic abstract">
+                <img src="images/abstract6.jpg" alt="picture1">
+            </a>
+            <a href="images/abstract4.jpeg" class="pic abstract">
+                <img src="images/abstract4.jpeg" alt="picture1">
+            </a>
+            <a href="images/painting7.jpeg" class="pic painting">
+                <img src="images/painting7.jpeg"  alt="picture2">
+            </a>
+            <a href="images/painting3.jpeg" class="pic painting">
+                <img src="images/painting3.jpeg"  alt="picture2">
+            </a>
+            <a href="images/photography4.jpg" class="pic photography">
+                <img src="images/photography4.jpg" alt="picture8">
+            </a>
+            <a href="images/abstract5.jpg" class="pic abstract">
+                <img src="images/abstract5.jpg" alt="picture1">
+            </a>
+            <a href="images/painting8.jpeg" class="pic painting">
+                <img src="images/painting8.jpeg"  alt="picture2">
+            </a>
+            <a href="images/photography5.jpg" class="pic photography">
+                <img src="images/photography5.jpg" alt="picture8">
+            </a>
+            <a href="images/abstract7.jpg" class="pic abstract">
+                <img src="images/abstract7.jpg" alt="picture1">
+            </a>
+        </div>
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.photo-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+            enabled: true
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>
